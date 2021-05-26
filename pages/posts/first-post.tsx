@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
 
-export default function FirstPost() {
+const FirstPost = (): JSX.Element => {
   return (
     <Layout>
       <Head>
@@ -17,3 +17,4 @@ export default function FirstPost() {
     </Layout>
   )
 }
+export default  FirstPost
